@@ -34,4 +34,3 @@ epsilon = 0.001  # Точність
 maximum, iterations = maximize(f, a, b, epsilon)
 print(f"\nMaximum: {maximum}")
 print(f"Iterations needed: {iterations}\n")
-print("Something went wrong!")
