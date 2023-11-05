@@ -31,10 +31,7 @@ a = 1
 b = 2
 epsilon = 0.001  # Точність
 
-try:
-    maximum, iterations = maximize(f, a, b, epsilon)
-    print(f"\nMaximum: {maximum}")
-    print(f"Iterations needed: {iterations}\n")
-
-except:
-    print("Something went wrong!")
+maximum, iterations = maximize(f, a, b, epsilon)
+print(f"\nMaximum: {maximum}")
+print(f"Iterations needed: {iterations}\n")
+print("Something went wrong!")
