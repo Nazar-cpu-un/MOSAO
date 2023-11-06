@@ -34,3 +34,4 @@ epsilon = 0.001  # Точність
 maximum, iterations = maximize(f, a, b, epsilon)
 print(f"\nMaximum: {maximum}")
 print(f"Iterations needed: {iterations}\n")
+res = input("Press eny key to exit ...")
