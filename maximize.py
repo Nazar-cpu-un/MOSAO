@@ -32,7 +32,7 @@ def maximize(f, a, b, epsilon):
 
 a = 1
 b = 2
-epsilon = 0.001  # Точність
+epsilon = 0.01  # Точність
 
 maximum, iterations = maximize(f, a, b, epsilon)
 print(f"\nMaximum: {maximum}")
